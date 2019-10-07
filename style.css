@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.artObject {
+    width: 30%;
+    float: left;
+    padding: 0.33% 0.33%;
+    height: 37.5vh;
+}
