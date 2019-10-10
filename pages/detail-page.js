@@ -7,5 +7,5 @@ their name and comment will be displayed
 on the page. */
 
 function submitComment() {
-    console.log('Hello!')
+  console.log('Hello!')
 }
