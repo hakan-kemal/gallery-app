@@ -17,6 +17,12 @@ function submitComment() {
   const msg = textArea.value
   // console.log(msg);
 
+  // Select the section element with id "comments" element using the getElementById-method and store it in the variable commentSection.
+  // Log commentSection in the console to see whether you selected the correct element.
+
+  const commentSection = document.getElementById('comments');
+  // console.log(comments);
+
 // the detail-page.html page comment section displayed at refresh is a section with class="comment" and consists of h3 and p elements,
 // h3 and p elements display inputted text and create the elements needed to display the submitted comments, 
 // so createElement should be create a section, a h3, and a p.
@@ -32,9 +38,19 @@ function submitComment() {
   h3.innerHTML = `${name} said:`
   p.innerHTML = msg
 
+  //Use the appendChild-method on commentSection to add your comment-variable to commentSection.
+
+  commentSection.appendChild(comment);
+
   comment.classList.add('comment');
   comment.appendChild(h3);
   comment.appendChild(p);
+
+  // Reassign the value-property of inputField to null.
+  // Reassign the value-property of textArea to null.
+
+  inputField.value = null
+  textArea.value = null
 
   console.log(comment)
 }
