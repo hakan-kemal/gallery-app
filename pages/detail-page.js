@@ -36,11 +36,11 @@ function submitComment() {
   // gather data from relevant elements/inputs and store these in a variable
   const inputField = document.getElementById('name');
   const name = inputField.value
-  console.log(name);
+  // console.log(name);
 
   const textArea = document.getElementById('msg');
   const msg = textArea.value
-  console.log(msg);
+  // console.log(msg);
 
   // Select the section element with id "comments" element using the getElementById-method and store it in the variable commentSection.
   // Log commentSection in the console to see whether you selected the correct element.
@@ -77,8 +77,8 @@ function submitComment() {
   inputField.value = null
   textArea.value = null
 
-  console.log(comment)
-  
+  // console.log(comment)
+
   if(doesNotPassAllValidations(name, msg)){
     return null
   }
