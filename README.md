@@ -7,3 +7,5 @@ The website was created with HTML and CSS and introduces the basic fundamentals 
 A user can like images or place comments, but the website doesn't store any data and once the page is refreshed everything will reset.
 
 Browsing the gallery app looks like this:
+
+![alt text](https://github.com/hakan-kemal/gallery-app/master/images/screenshot1.png)
