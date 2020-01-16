@@ -8,4 +8,8 @@ A user can like images or place comments, but the website doesn't store any data
 
 Browsing the gallery app looks like this:
 
-![alt text](https://github.com/hakan-kemal/gallery-app/master/images/screenshot1.png)
+![app-screeshot-1](./images/screenshot1.png)
+
+![app-screeshot-2](./images/screenshot2.png)
+
+![app-screeshot-3](./images/screenshot3.png)
